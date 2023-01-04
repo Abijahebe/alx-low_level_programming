@@ -1,0 +1,13 @@
+#include <string.h>
+
+void remove_trailing_whitespace(char *str) {
+    int i = strlen(str) - 1;  // Get index of last character in string
+
+    // Iterate backwards through string until a non-whitespace character is found
+    while (i >= 0 && (str[i] == ' ' || str[i] == '\t' || str[i] == '\n')) {
+        i--;
+    }
+
+    // Set null character at new end of string
+    str[i + 1] = '\0';
+}
