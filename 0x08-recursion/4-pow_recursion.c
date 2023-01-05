@@ -11,18 +11,21 @@
  * @y: The power.
  *
  * @y: The power.
-*/
+ * Return: pow recursion.
+ */
 int _pow_recursion(int x, int y)
 {
 int result = x;
 
-if (y < 0)
+if (y < 0) /*Base condition*/
+{
 return (-1);
+}
 
 else if (y == 0)
 return (1);
 
-result *= _pow_recursion(x, y - 1);
+result *= _pow_recursion(x, y - 1); /*recursive call*/
 
 return (result);
 }
