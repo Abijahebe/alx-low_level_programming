@@ -1,13 +1,15 @@
 /*
- * File: 6-is_prime_number.c
- * Auth: sam tech
+ * File: 6-is_prime_number.
+ * Auth: sam
  */
 
 #include "main.h"
+
 int is_divisible(int num, int div);
+int is_prime_number(int n);
 
 /**
- * is_divisible - Checks if a number is divisible.
+ * is_divisible - Checks if a number is divisible
  * @num: The number to be checked.
  * @div: The divisor.
  *
