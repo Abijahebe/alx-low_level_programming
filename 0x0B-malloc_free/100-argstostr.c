@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * argstostr - main entry
- * @ac: int input
- * double pointer array
- * @av is an array of strings that represents the command-line arguments
- * Return: 0
+ * *argstostr - concatenates all the arguments of the program
+ * @ac: number of arguments
+ * @av: array of arguments
+ *
+ * Return: pointer to the new string (success), NULL (Error)
  */
 char *argstostr(int ac, char **av)
 {
