@@ -79,7 +79,7 @@ return (ln);
  * @argv: arguments vector.
  *
  * Return: 0 - success.
- */
+*/
 int main(int argc, char *argv[])
 {
 int ln1, ln2, lnout, add, addl, i, j, k, ca;
