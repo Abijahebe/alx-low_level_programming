@@ -1,3 +1,6 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #ifndef _DYN_LIBS_
 #define _DYN_LIBS_
 
