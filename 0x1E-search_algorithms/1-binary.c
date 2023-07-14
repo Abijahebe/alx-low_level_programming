@@ -9,7 +9,7 @@
  *
  * Return: the index of the array that has the value. -1 otherwise
  */
-int binary_search(int *array, size, int value)
+int binary_search(int *array, size_t size, int value)
 {
 	size_t i = 0, j = size - 1, mid, k;
 
