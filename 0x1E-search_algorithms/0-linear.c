@@ -9,7 +9,7 @@
  *
  * Return: index of value in the array if found, -1 otherwise
  */
-int linear_search(int *array, ize_t size, int value)
+int linear_search(int *array, size_t size, int value)
 {
 	unsigned long i;
 
